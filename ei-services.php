@@ -11,14 +11,14 @@ Author: Neeraj Khatediya
 
 require 'plugin-update-checker/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-	'https://github.com/Neerajkhatediya/service-showcase-plugin',
+	'https://github.com/Neerajkhatediya/ei-services',
 	__FILE__,
 	'ei-services'
 );
 
 //Set the branch that contains the stable release.
- $myUpdateChecker->getVcsApi()->enableReleaseAssets();
-$myUpdateChecker->setBranch('master');
+$myUpdateChecker->setBranch('main');
+
 
 
 if ( ! defined( 'ABSPATH' ) ) {
