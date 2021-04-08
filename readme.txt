@@ -58,5 +58,9 @@ Answer to foo bar dilemma.
 * A change since the previous version.
 * Another change.
 
+= 1.3 =
+* A change since the previous version.
+* Another change.
+
 
 
