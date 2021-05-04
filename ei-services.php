@@ -2,7 +2,7 @@
 /*
 Plugin Name: EI Services
 Description: EI Services is a simple WordPress plugin for displaying the services.
-Version: 1.0
+Version: 1.3
 Text Domain: ei-services
 Author: Neeraj Khatediya
 */
@@ -29,7 +29,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 define( 'EIS_PLUGIN_URL', plugin_dir_url( __FILE__) );
 define( 'EIS_PLUGIN_PATH', plugin_dir_path( __FILE__ ) );
 define( 'EIS_PLUGIN_BASENAME', plugin_basename( __FILE__ ) );
-define( 'EIS_PLUGIN_VERSION', '1.0' );
+define( 'EIS_PLUGIN_VERSION', '1.3' );
 
 /* ---------------------------------------------------------------------------
  * Load the plugin required files

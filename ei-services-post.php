@@ -205,7 +205,7 @@
 			{ 
 				if ( !isset($_POST['ei_services_nonce']) || !wp_verify_nonce($_POST['ei_services_nonce'],'services_general_setting') )
 				{
-				    _e('Sorry, your nonce did not verify.', 'ei-services');
+				    _e('Sorry, Your nonce did not verify.', 'ei-services');
 				   exit;
 				}
 				
